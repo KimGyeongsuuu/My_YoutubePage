@@ -1,9 +1,11 @@
 body{
     background-color: #202020;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
-.html{
-    height: 100%;
+html{
+    height: 1000px;
 }
 .YouTube{
     display: flex;
@@ -11,30 +13,31 @@ body{
 }
 .Head-Div{
     width: 100%;
-    height: 56px;
-    position: absolute;
-    left: 0;
-    top:0;
+    height: 55px;
     border-bottom: 1px solid rgb(65, 63, 63);
     padding: 0px 0px 0px 22px;
     display: flex;
     flex-direction: row;
-}
-.Head-Div .start{
-    display: flex;
-    align-items: center;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Head-Div .start{   
     width: 169px;
     height: 56px;
+    position: absolute;
+    width: 255px;
+    height: 48px;
+    left: 22px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
 }
-.start .button .Bar{
+.start .Bar{
     width:28px;
-    height: 28px;
+    height: 27px;
 }
 .start .logo{
-    width: 130px;
+    width: 115px;
     height: 35px;
     padding:5px 14px 13px 16px;
 }
@@ -42,33 +45,146 @@ body{
     display: flex;
     text-align: center;
     align-items: center;
-    width: 728px;
+    justify-content: center;
+    width: 770px;
     height: 40px;
+    border: 1px solid whitesmoke;
+}
+.center .searchbox{
+    width:500px;    
+    display: flex;
+    align-items: center;
 }
 .Head-Div .end{
     position: absolute;
+    width: 255px;
     height: 57px;
-    right: 64px;
+    right: 39px;
     display: flex;
     align-items: center;
-    text-align: center;
+    flex-direction: row-reverse;
+    float: right;
 }
 .Head-Div .end .camara{
     width: 35px;
-    height: 28px;
-    margin-right: 20px;
+    height: 29px;
+    margin-right: 21px;
+    margin-bottom: 8px;
 }
 .Head-Div .end .message{
     width: 24px;
     height: 31px;
-    margin-right: 20px;
+    margin-right: 24px;
+    margin-bottom: 8px;
+
 }
 .Head-Div .end .google{
     width: 45px;
     height: 40px;
+    margin-bottom: 8px;
+
 }
+/*
+
 .middle-Div{
     width: 250px;
     height: 100%;
     border: 1px solid white;
+}
+*/
+.search{
+    width: 486px;
+    height: 18px;
+    background-color: #121212;
+}
+.searchbox{
+    width: 572px;
+    height: 40px;
+    background-color: #121212;
+    
+}
+.middle-Div{
+    display: flex;
+    flex-direction: row;
+}
+.middle-Div .leftScroll{
+    display: flex;
+    flex-direction: column;
+}
+.left-Div{
+    width: 192px;
+    height: 40px;
+    padding: 0 24px;
+}
+.left-Font{
+    color: white;
+    font-size: 14px;
+}
+.middle-Div .leftScroll .left-Div{
+    display: flex;
+    align-items: center;
+}
+.middle-Div .leftScroll .left-Div:hover{
+    background-color: #383838;
+}
+.leftScroll .left-Div img{
+    margin-right: 24px;
+}
+.Type{
+    width: 1276px;
+    height: 58px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.TypeBox{
+    width: 55px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+.RightBox{
+    width: 67px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.TypeBox-Animation{
+    width: 80px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+.TypeBox-New
+{
+    width: 179px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+.TypeBox-Visited{
+    width: 110px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
 }
