@@ -188,3 +188,31 @@ html{
     display: flex;
     justify-content: center;
 }
+.TypeBox-New2{
+    width: 110px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
+.RightBox1{
+    width: 80px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.TypeBox1{
+    width: 70px;
+    height: 33px;
+    font-size: 14px;
+    color: white;
+    background-color: #373737;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+}
