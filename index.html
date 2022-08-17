@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4b527c4f3e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <title>YouTube</title>
 </head>
 <body>
@@ -31,31 +32,45 @@
         </div>
         <div class="middle-Div">
             <div class="leftScroll">
-                <div class="left-Div"><img src="home.png"><p class="left-Font">홈</p></div>
-                <div class="left-Div"><img src="tamsang.png"><p class="left-Font">탐색</p></div>
-                <div class="left-Div"><img src="short.png"><p class="left-Font">Shorts</p></div>
-                <div class="left-Div"><img src="subscribe.png"><p class="left-Font">구독</p></div><hr>
-                <div class="left-Div"><img src="save.png"><p class="left-Font">보관함</p></div>
-                <div class="left-Div"><img src="record.png"><p class="left-Font">시청 기록</p></div>
-                <div class="left-Div"><img src="later.png"><p class="left-Font">나중에 볼 동영상</p></div>
-                <div class="left-Div"><img src="good.png"><p class="left-Font">좋아요 표시한 동영상</p></div>
-                <div class="left-Div"><img src="music.png"><p class="left-Font">음악</p></div>
-                <div class="left-Div"><img src="sport.png"><p class="left-Font">스포츠</p></div>
-                <div class="left-Div"><img src="game.png"><p class="left-Font">게임</p></div>
-                <div class="left-Div"><img src="movie.png"><p class="left-Font">영화</p></div>
-                <div class="left-Div"><img src="music2.png"><p class="left-Font">영화</p></div>
-                <div class="left-Div"><img src="game2.png"><p class="left-Font">게임</p></div>
-                <div class="left-Div"><img src="study.png"><p class="left-Font">학습</p></div>
-                <div class="left-Div"><img src="sport2.png"><p class="left-Font">스포츠</p></div>
-                <div class="left-Div"><img src="youtube-premium.png"><p class="left-Font">YouTube Premium</p></div>
-                <div class="left-Div"><img src="createrStudio.png"><p class="left-Font">크리에이터 스튜디오</p></div>
-                <div class="left-Div"><img src="youtubeMusic.png"><p class="left-Font">YouTube Music</p></div>
-                <div class="left-Div"><img src="YouTubeKids.png"><p class="left-Font">YouTube Kids</p></div>
-                <div class="left-Div"><img src="YouTubeTv.png"><p class="left-Font">YouTube TV</p></div>
-                <div class="left-Div"><img src="setting.png"><p class="left-Font">설정</p></div>
-                <div class="left-Div"><img src="police.png"><p class="left-Font">신고 기록</p></div>
-                <div class="left-Div"><img src="gogakcenter.png"><p class="left-Font">고객센터</p></div>
-                <div class="left-Div"><img src="opinon.png"><p class="left-Font">의견 보내기</p></div>
+                <div class="icon">
+                    <div class="left-Div" id="div-top"><i class="fa-solid fa-house" id="icon"></i><p class="left-Font">홈</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-compass" id="icon"></i><p class="left-Font">탐색</p></div>
+                    <div class="left-Div"><img src="short.png"><p class="left-Font">Shorts</p></div>
+                    <div class="left-Div"  id="div-under"><i class="fa-solid fa-clapperboard-play" id="icon"></i><p class="left-Font">구독</p></div><hr>
+                </div>
+                <div class="icon">
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-box-archive" id="icon"></i><p class="left-Font">보관함</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-clock-rotate-left" id="icon"></i><p class="left-Font">시청 기록</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-circle-play" id="icon"></i><p class="left-Font">내 동영상</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-clock" id="icon"></i><p class="left-Font">나중에 볼 동영상</p></div>
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-thumbs-up" id="icon"></i><p class="left-Font">좋아요 표시한 동영상</p></div><hr>
+                </div>
+                <div class="icon">
+
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-circle-plus" id="icon"></i><p class="left-Font">구독 1</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-circle-plus" id="icon"></i><p class="left-Font">구독 2</p></div>
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-square-plus" id="icon"></i><p class="left-Font">채널 탐색</p></div><hr>
+                </div>
+                <div class="icon">
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-music" id="icon"></i><p class="left-Font">음악</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-trophy" id="icon"></i><p class="left-Font">스포츠</p></div>
+                    <div class="left-Div"><i class="fa-solid fa-gamepad" id="icon"></i><p class="left-Font">게임</p></div>
+                    <div class="left-Div" id="div-under"><i class="fa-solid fa-film" id="icon"></i><p class="left-Font">영화</p></div><hr>
+                </div>
+                <div class="icon">
+
+                    <div class="left-Div" id="div-under"><img src="youtube-premium.png"><p class="left-Font">YouTube Premium</p></div>
+                    <div class="left-Div"><img src="createrStudio.png"><p class="left-Font">크리에이터 스튜디오</p></div>
+                    <div class="left-Div"><img src="youtubeMusic.png"><p class="left-Font">YouTube Music</p></div>
+                    <div class="left-Div"><img src="YouTubeKids.png"><p class="left-Font">YouTube Kids</p></div>
+                    <div class="left-Div" id="div-under"><img src="YouTubeTv.png"><p class="left-Font">YouTube TV</p></div><hr>
+                </div>
+                <div class="icon">
+                    <div class="left-Div" id="div-under"><img src="setting.png"><p class="left-Font">설정</p></div>
+                    <div class="left-Div"><img src="police.png"><p class="left-Font">신고 기록</p></div>
+                    <div class="left-Div"><img src="gogakcenter.png"><p class="left-Font">고객센터</p></div>
+                    <div class="left-Div" id="div-under"><img src="opinon.png"><p class="left-Font">의견 보내기</p></div>
+                </div>
             </div>
             <div class="rightScroll">
                 <div class="Type">
@@ -66,13 +81,15 @@
                     <div class="RightBox"><div class="TypeBox"><p>믹스</p></div></div>
                     <div class="RightBox"><div class="TypeBox"><p>야구</p></div></div>
                     <div class="RightBox"><div class="TypeBox"><p>요리</p></div></div>
-                    <div class="RightBox"><div class="TypeBox-Animation"><p>애니메이션</p></div></div>
-                    <div class="RightBox"><div class="TypeBox-New"><p>최근에 업로드된 동영상</p></div></div>
-                    <div class="RightBox"><div class="TypeBox-Visited"><p>감상한 동영상</p></div></div>
-                    <div class="RightBox"><div class="TypeBox-New2"><p>새로운 맞춤 동영상</p></div></div>
+                    <div class="RightBox2"><div class="TypeBox-Animation"><p>애니메이션</p></div></div>
+                    <div class="RightBox3"><div class="TypeBox-New"><p>최근에 업로드된 동영상</p></div></div>
+                    <div class="RightBox4"><div class="TypeBox-Visited"><p>감상한 동영상</p></div></div>
+                    <div class="RightBox5"><div class="TypeBox-New2"><p>새로운 맞춤 동영상</p></div></div>
+                </div>
+                <div class="video">
+                    <p>helloworld</p>
                 </div>
             </div>
-
         </div>
     </div>
 </body>
