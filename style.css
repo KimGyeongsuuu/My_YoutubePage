@@ -22,6 +22,9 @@ html{
     align-items: center;
     justify-content: center;
 }
+.rigthScroll{
+    border: 10px solid yellow;
+}
 .Head-Div .start{   
     width: 169px;
     height: 56px;
@@ -48,7 +51,6 @@ html{
     justify-content: center;
     width: 770px;
     height: 40px;
-    border: 1px solid whitesmoke;
 }
 .center .searchbox{
     width:500px;    
@@ -93,15 +95,44 @@ html{
 }
 */
 .search{
-    width: 486px;
-    height: 18px;
+    width: 495px;
+    height: 25px;
     background-color: #121212;
+    color: white;
+    border: 0;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    font-size: 17px;
 }
 .searchbox{
-    width: 572px;
+    width: 600px;
     height: 40px;
     background-color: #121212;
+    margin-left: 40px;
     
+}
+.fa-magnifying-glass{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.fa-microphone{
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+.microphone-div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
 }
 .middle-Div{
     display: flex;
@@ -387,4 +418,7 @@ a:link{
 }
 .TopIcon-Div{
     margin-top: 10px;
+}
+.TypeBox:hover , .TypeBox1:hover , .TypeBox-Animation:hover , .TypeBox-New:hover , .TypeBox-New2:hover , .TypeBox-Visited:hover{
+    background-color: rgb(110, 109, 109);
 }
