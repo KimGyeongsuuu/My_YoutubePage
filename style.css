@@ -15,12 +15,17 @@ html{
     width: 100%;
     height: 55px;
     border-bottom: 1px solid rgb(65, 63, 63);
-    padding: 0px 0px 0px 22px;
+    background-color: rgba(40, 40, 40, 1);
+    padding: 0px 0px 0px 20px;
     display: flex;
     flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
 }
 .rigthScroll{
     border: 10px solid yellow;
@@ -34,6 +39,7 @@ html{
     left: 22px;
     display: flex;
     align-items: center;
+    padding-left: 5px;
 }
 .start .Bar{
     width:28px;
@@ -87,7 +93,6 @@ html{
 
 }
 /*
-
 .middle-Div{
     width: 250px;
     height: 100%;
@@ -139,11 +144,29 @@ input:focus{
     flex-direction: row;
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 .middle-Div .leftScroll{
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    width: 240px;
+    height: 700px;
+    position: fixed;
+    left: 0;
+    top:60px;
+    background-color: rgba(40, 40, 40, 1);
+}
+.leftScroll::-webkit-scrollbar{
+    width: 9px;
+}
+.leftScroll::-webkit-scrollbar-thumb{
+    height: 30%;
+    background: rgba(113, 113, 113, 1);
+    border-radius: 10px;
+}
+.leftScroll::-webkit-scrollbar-track{
+    background: rgba(40, 40, 40, 1);
 }
 .left-Div{
     width: 192px;
@@ -173,12 +196,25 @@ input:focus{
     width: 100%;
     height: 58px;
     position: absolute;
+    border-top: 1px solid #373737;
     border-bottom: 1px solid #373737;
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 240px;
+    padding-left: 110px;
+    background-color: rgba(40, 40, 40, 1);
+}
+.fa-youtube{
+    color: red;
+    width: 90px;
+    height: 26px;
+}
+.fa-bars{
+    color: white;
 }
 .TypeBox{
     width: 55px;
