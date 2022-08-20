@@ -55,7 +55,7 @@ html{
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 770px;
+    width: 820px;
     height: 40px;
 }
 .center .searchbox{
@@ -76,7 +76,7 @@ html{
 .Head-Div .end .camara{
     width: 35px;
     height: 29px;
-    margin-right: 21px;
+    margin-right: 19px;
     margin-bottom: 8px;
 }
 .Head-Div .end .message{
@@ -86,10 +86,36 @@ html{
     margin-bottom: 8px;
 
 }
+.glass-div{
+    width: 60px;
+    height: 40px;
+    background-color: #313131;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fa-magnifying-glass{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fa-microphone{
+    width: 24px;
+    height: 24px;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+}
 .Head-Div .end .google{
     width: 45px;
     height: 40px;
     margin-bottom: 8px;
+    margin-right: 8px;
 
 }
 /*
@@ -100,7 +126,7 @@ html{
 }
 */
 .search{
-    width: 495px;
+    width: 500px;
     height: 25px;
     background-color: #121212;
     color: white;
@@ -113,16 +139,24 @@ input:focus{
     font-size: 17px;
 }
 .searchbox{
-    width: 600px;
+    width: 650px;
     height: 40px;
     background-color: #121212;
     margin-left: 40px;
     
 }
-.fa-magnifying-glass{
-    width: 24px;
-    height: 24px;
+.youtube-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 50px;
+    margin-left: 19px;
+}
+.youtube-write{
     color: white;
+    font-weight: bold;
 }
 .fa-microphone{
     width: 24px;
@@ -130,18 +164,21 @@ input:focus{
     color: white;
 }
 .microphone-div{
-    width: 40px;
-    height: 40px;
-    border: 1px solid blue;
+    width: 39px;
+    height: 35px;
+    background-color: #181818;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding-top: 5px;
+    margin-left:10px;
+    margin-right: 20px;
 }
 .middle-Div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -200,12 +237,12 @@ input:focus{
     border-bottom: 1px solid #373737;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     text-align: center;
     position: fixed;
-    margin-top: 60px;
+    margin-top: 55px;
     margin-left: 240px;
-    padding-left: 110px;
     background-color: rgba(40, 40, 40, 1);
 }
 .fa-youtube{
@@ -464,4 +501,41 @@ a:link{
 }
 .TypeBox:hover , .TypeBox1:hover , .TypeBox-Animation:hover , .TypeBox-New:hover , .TypeBox-New2:hover , .TypeBox-Visited:hover{
     background-color: rgb(110, 109, 109);
+}
+.video-content{
+    width: 290px;
+    height:245px;
+    border: 1px solid white;
+    margin-right: 18px;
+
+}
+.video .video-div{
+    display: flex;
+    flex-direction: row;
+}
+.video{
+
+    width: 1290px;
+    height: 289px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.google-profile{
+    width: 33px;
+    height: 33px;
+    border-radius: 30px;
+    background-color: #264b3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.fa-user{
+    color: #b9c8c6;
+    padding-top: 6px;
+}
+.bell{
+    margin-right: 8px;
 }
