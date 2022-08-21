@@ -517,8 +517,20 @@ a:link{
 .middle-title{
     display: flex;
     flex-direction: row;
-    align-items: center;
-
+    height: 120px;
+    width: 295.99px;
+    text-align: left;
+}
+.mix-middle-title{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.mix-video-title{
+    width: 271.94px;
+    height: 38.4px;
+    font-size: 14px;
+    font-family: "Roboto","Arial",sans-serif;
 }
 .video-div-top{
     display: flex;
@@ -528,7 +540,9 @@ a:link{
     text-align: center;
     margin-bottom: 5px;
     margin-top: 20px;
-
+}
+.channel-div{
+    margin: 12px 12px 0 0;
 }
 .video .video-div{
     display: flex;
@@ -537,29 +551,37 @@ a:link{
     align-items: center;
     text-align: center;
     margin-bottom: 5px;
-
+    height: 300px;
+}
+.details{
+    width: 243.99px;
+    height: 94px;
+    display: flex;
+    flex-direction: row;
 }
 .channel{
-    width: 40px;
-    height: 40px;
+    width: 43px;
+    height: 43px;
     border-radius: 30px;
     background-color: white;
-    margin-right: 8px;
 }
 .video-title{
     font-size: 14px;
     font-family: "Roboto","Arial",sans-serif;
+    width: 224.8px;
+    height: 38.4px;
+    display: flex;
+    justify-content: start;
 }
 .Thumbnail{
-    width: 289px;
-    height: 154.9px;
+    width: 295.99px;
+    height: 166.9px;
 }
 .video{
     width: 1290px;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     margin-top: 115px;
     margin-left: 240px;
@@ -581,4 +603,8 @@ a:link{
 }
 .bell{
     margin-right: 8px;
+}
+.fa-ellipsis-vertical{
+    color: white;
+    padding: 10px 0 0 7px;
 }
