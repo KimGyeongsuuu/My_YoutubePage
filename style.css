@@ -116,7 +116,10 @@ html{
     height: 40px;
     margin-bottom: 8px;
     margin-right: 8px;
-
+}
+.glass-div{
+    width: 64px;
+    height: 40px;
 }
 /*
 .middle-Div{
