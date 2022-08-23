@@ -28,7 +28,7 @@ html{
     right: 0;
 }
 .rigthScroll{
-    border: 10px solid yellow;
+    margin-left:50px;    
 }
 .Head-Div .start{   
     width: 169px;
@@ -590,6 +590,7 @@ a:link{
     margin-top: 115px;
     margin-left: 240px;
     flex-direction: column;
+    justify-content: center;
 }
 .google-profile{
     width: 33px;
